@@ -1,0 +1,43 @@
+# --- GLOBAL OS FILES ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- BACKEND (Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+backend/venv/
+backend/.venv/
+chess_coqui_env/
+
+# Backend Secrets & Engines
+backend/.env
+backend/*.exe
+backend/engines/
+backend/stockfish.exe
+
+# --- FRONTEND (Next.js) ---
+# Dependencies (Massive folder, never commit this)
+frontend/node_modules/
+
+# Build outputs
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Frontend Secrets (Clerk Keys)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+

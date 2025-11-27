@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+.venv/
+/chess_coqui_env/ 
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models and cache
+/models/tts_models/
+*.pth
+*.pt
+/models/voice_samples/  # <-- Added to ignore the downloaded default voice
+
+# Output files
+/output/audio/
+/output/text/
+/output/combined/     # <-- Added to ignore your final_videos folder
+
+# Large Media Files (optional, but recommended)
+/input/videos/        # <-- Added to avoid committing large video files
+
+# Config with secrets
+.env
+/config/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor Config
+.vscode/              # <-- Added for VS Code settings

@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+chess
+stockfish
+google-generativeai
+TTS
+torch
+torchaudio
+supabase
+pydantic
+chess.com
+pygame
