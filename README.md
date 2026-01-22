@@ -1,21 +1,26 @@
 # ♟️ Knightspeaks: AI Chess Commentary
 
 **Knightspeaks** is a full-stack web application that turns your chess games into exciting, professional audio commentary. It combines **Stockfish** for analysis, **Google Gemini** for charismatic narration, and **Coqui TTS** for lifelike voice synthesis.
-## 📌 Project Overview
+## 📌 Project Overview:
 KnightSpeak.ai_chess is a full-stack AI-powered chess commentary web app that:
-Analyzes game moves using Stockfish
-Generates natural commentary using an LLM (Google Gemini)
-Converts that commentary into lifelike audio (Coqui)
-Presents results through a clean UI built with Next.js
-This project was developed as part of a team, with all members contributing to its architecture, implementation, and deployment. The final working version is hosted on this GitHub for showcase purposes.
+♦ Analyzes game moves using Stockfish
+♦ Generates natural commentary using an LLM (Google Gemini)
+♦ Converts that commentary into lifelike audio (Coqui)
+♦ Presents results through a clean UI built with Next.js
+♦ This project was developed as part of a team, with all members contributing to its architecture, implementation, and deployment. The final working version is hosted on this GitHub for showcase purposes.
 🚀🚀MY ROLE AND CONTRIBUTION:
 I was the primary architect of the project and the owner of the core commentary pipeline. My responsibilities included:
-Project ideation: Conceptualized the idea of an automated chess commentary system that converts raw gameplay into natural-sounding audio explanations.
-System design: Designed the end-to-end pipeline from input to output, defining how PGN data flows through analysis, language generation, and audio synthesis stages.
-PGN processing: Implemented logic to read, parse, and iterate through chess games from PGN files, extracting move-level information required for analysis.
-Game evaluation: Integrated Stockfish to evaluate positions and generate quantitative assessments for each move.
-Commentary generation: Designed prompts and data formatting to feed move context and engine evaluations into an LLM, generating human-like chess commentary.
-Audio synthesis: Converted generated commentary into audio outputs, forming the final consumable narration layer.
+1:- Project ideation: Conceptualized the idea of an automated chess commentary system that converts raw gameplay into natural-sounding audio explanations.
+2:- System design: 
+Designed the end-to-end pipeline from input to output, defining how PGN data flows through analysis, language generation, and audio synthesis stages.
+3:- PGN processing: 
+Implemented logic to read, parse, and iterate through chess games from PGN files, extracting move-level information required for analysis.
+4:-Game evaluation: 
+Integrated Stockfish to evaluate positions and generate quantitative assessments for each move.
+5:-Commentary generation: 
+Designed prompts and data formatting to feed move context and engine evaluations into an LLM, generating human-like chess commentary.
+6:-Audio synthesis: 
+Converted generated commentary into audio outputs, forming the final consumable narration layer.
 Pipeline integration: Ensured seamless coordination between analysis, language generation, and audio modules to produce synchronized outputs.
 This role required combining algorithmic thinking, AI integration, and system-level design, making the commentary pipeline the central component of the project.
 
